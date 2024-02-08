@@ -37,7 +37,6 @@ string EncryptCaesar(string myName, int shift)
         return new string(encryptedName);
     }
 
-
 string DecryptCaesar(string myName, int shift)
 {
     return EncryptCaesar(myName, -shift);
