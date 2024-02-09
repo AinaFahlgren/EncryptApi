@@ -331,10 +331,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "xunit >= 2.6.6",
-      "xunit.runner.console >= 2.6.6"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\ainaf\\.nuget\\packages\\": {}
@@ -371,19 +368,7 @@
     },
     "frameworks": {
       "net6.0": {
-        "targetAlias": "net6.0",
-        "dependencies": {
-          "xunit": {
-            "target": "Package",
-            "version": "[2.6.6, )"
-          },
-          "xunit.runner.console": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[2.6.6, )"
-          }
-        },
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
