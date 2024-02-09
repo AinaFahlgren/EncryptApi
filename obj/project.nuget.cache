@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "kpL/QT3EyH8iq5LfdECZsvWgNmXDRZb/3ZvDIBrxlfYimpzTbkuJTmsltPDcBYIfgVMc3fg34iRH3N3ENJuMhw==",
+  "dgSpecHash": "ZiWhNKo6YA2Z25KnklmrD95eyPdr82SQT2hjgGwXxVLyUMFh/DuSz0Z8fFQ9Ou52p9STHRzZmTvjPA9DJfGphg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ainaf\\Desktop\\ind_proj\\ind_proj.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ainaf\\.nuget\\packages\\xunit\\2.6.6\\xunit.2.6.6.nupkg.sha512",
+    "C:\\Users\\ainaf\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\ainaf\\.nuget\\packages\\xunit.analyzers\\1.10.0\\xunit.analyzers.1.10.0.nupkg.sha512",
+    "C:\\Users\\ainaf\\.nuget\\packages\\xunit.assert\\2.6.6\\xunit.assert.2.6.6.nupkg.sha512",
+    "C:\\Users\\ainaf\\.nuget\\packages\\xunit.core\\2.6.6\\xunit.core.2.6.6.nupkg.sha512",
+    "C:\\Users\\ainaf\\.nuget\\packages\\xunit.extensibility.core\\2.6.6\\xunit.extensibility.core.2.6.6.nupkg.sha512",
+    "C:\\Users\\ainaf\\.nuget\\packages\\xunit.extensibility.execution\\2.6.6\\xunit.extensibility.execution.2.6.6.nupkg.sha512",
+    "C:\\Users\\ainaf\\.nuget\\packages\\xunit.runner.console\\2.6.6\\xunit.runner.console.2.6.6.nupkg.sha512"
+  ],
   "logs": []
 }

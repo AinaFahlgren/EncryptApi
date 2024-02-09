@@ -12,4 +12,12 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\ainaf\.nuget\packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)xunit.runner.console\2.6.6\build\xunit.runner.console.props" Condition="Exists('$(NuGetPackageRoot)xunit.runner.console\2.6.6\build\xunit.runner.console.props')" />
+    <Import Project="$(NuGetPackageRoot)xunit.core\2.6.6\build\xunit.core.props" Condition="Exists('$(NuGetPackageRoot)xunit.core\2.6.6\build\xunit.core.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Pkgxunit_runner_console Condition=" '$(Pkgxunit_runner_console)' == '' ">C:\Users\ainaf\.nuget\packages\xunit.runner.console\2.6.6</Pkgxunit_runner_console>
+    <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\ainaf\.nuget\packages\xunit.analyzers\1.10.0</Pkgxunit_analyzers>
+  </PropertyGroup>
 </Project>
